@@ -42,5 +42,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "@waves/ts-lib-crypto": "^1.4.2"
   }
 }

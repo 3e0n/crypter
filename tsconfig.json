@@ -1,10 +1,14 @@
 {
-    "exclude": [
-        "node_modules",
-        "dist"
-    ],
     "compilerOptions": {
         "target": "ESNext",
         "module": "ESNext",
-    }
+        "moduleResolution": "Node",
+        "baseUrl": ".",
+        "paths": {
+            "@/utils/*": ["./libs/utils/*"]
+        }
+    },
+    "include": [
+        "libs/**/*"
+    ]
 }
