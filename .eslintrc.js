@@ -1,3 +1,10 @@
+/**
+ * setup instruction eslint typescript prettier
+ *@see https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb
+ *@see https://habr.com/ru/company/dodopizzadev/blog/473648/
+ */
+
+
 module.exports = {
     root: true,
     // Настройки проекта
